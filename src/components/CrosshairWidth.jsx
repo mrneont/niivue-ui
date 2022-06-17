@@ -40,7 +40,7 @@ export function CrosshairWidth({nv}){
 			<Input 
       	   disableUnderline={true}
 				type='number'
-				style={{width:'50px', height:'20px'}}
+				style={{width:'50px', height:'20px', backgroundColor:'#ffffff'}}
 				onInput={(e)=>{updateCrosshairWidth(e.target.value);}}
 				value={crosshairWidth}
 			/>
